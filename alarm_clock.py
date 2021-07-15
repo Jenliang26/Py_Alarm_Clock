@@ -5,7 +5,10 @@ class Alarm_Clock:
         self.onOrOff = onOrOff
         self.setTime = setTime
 
-    #Method to set the current time    
+    #Method to set the current time 
+    def setCurTime(self,inputTime):
+        self.cutTime = inputTime
+        print(self.cutTime)
 
     def switchAlarmOnOff(self):
         if (self.alarm_set == False):
