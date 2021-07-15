@@ -8,7 +8,7 @@ class Alarm_Clock:
     #Method to set the current time 
     def setCurTime(self,inputTime):
         self.cutTime = inputTime
-        print(self.cutTime)
+        print("The current time is " + self.cutTime)
 
     #Turn on or off alarm
     def switchAlarmOnOff(self):
