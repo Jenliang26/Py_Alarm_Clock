@@ -18,5 +18,7 @@ class Alarm_Clock:
             self.onOrOff = False
         print(self.onOrOff)
 
-  
-    
+    #Set alarm time
+    def setAlarmTime(self,inputTime):
+        self.setTime = inputTime
+        print("The current alarm is set to " + self.setTime) 
