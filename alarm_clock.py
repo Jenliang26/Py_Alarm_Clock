@@ -10,10 +10,13 @@ class Alarm_Clock:
         self.cutTime = inputTime
         print(self.cutTime)
 
+    #Turn on or off alarm
     def switchAlarmOnOff(self):
-        if (self.alarm_set == False):
-            self.alarm_set = True
-        else: 
-            self.alarm_set = False
+        if (self.onOrOff == False):
+            self.onOrOff = True
+        else:
+            self.onOrOff = False
+        print(self.onOrOff)
 
+  
     
