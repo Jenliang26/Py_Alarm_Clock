@@ -1,4 +1,10 @@
 from alarm_clock import Alarm_Clock
-new_alarm_clock = Alarm_Clock()
-new_alarm_clock.switchAlarmOnOff()
-print("The alarm is ", self)
+
+newAlarm = Alarm_Clock("11:00", False, "12:00")
+
+newAlarm.setAlarmTime("11:00")
+
+newAlarm.switchAlarmOnOff()
+
+newAlarm.setCurTime("12:00")
+
